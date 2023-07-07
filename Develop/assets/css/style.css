@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Provides the format for the header style of the website such as fonts, colors, and pading*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,8 +19,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/*  Allows for the color indicated to be applied to elements of your choosing in the html file*/
+.seo {
     color: #e8f5ba;
 }
 
@@ -32,10 +32,12 @@ body {
     font-size: 20px;
 }
 
+/*Removes bullet points from the onordered list loacted in the nav tag of the html file*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*Removes the block behaviour of the list so they can display in a horizontal fashion instead of vertically like traditonal lists*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,6 +61,8 @@ p {
     background-position: center;
 }
 
+/*The following classes begginning with "float" are used to move images horizontally within the body 
+of the websiste for aesthetic/structual purposes*/
 .float-left {
     float: left;
     margin-right: 25px;
