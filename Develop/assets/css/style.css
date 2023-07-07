@@ -13,13 +13,14 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*  Allows for the color indicated to be applied to elements of your choosing in the html file*/
+/*  Allows for the color indicated to be applied to elements of your choosing within the html file*/
 .seo {
     color: #e8f5ba;
 }
@@ -51,7 +52,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Adjusts the header image to desired scale and position*/
 .hero {
     height: 800px;
     width: 100%;
@@ -61,7 +62,7 @@ p {
     background-position: center;
 }
 
-/*The following classes begginning with "float" are used to move images horizontally within the body 
+/*The following classes begginning with "float" are used to arrange images along the horizontal axis within the body 
 of the websiste for aesthetic/structual purposes*/
 .float-left {
     float: left;
@@ -72,13 +73,14 @@ of the websiste for aesthetic/structual purposes*/
     float: right;
     margin-left: 25px;
 }
-
+/* The content class pertains to the articles on the left side of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* The benefits class holds the structure for the articles on the right side of the page, all these articles
+pertain to the "benefits" category of the web pages theme*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,7 +91,8 @@ of the websiste for aesthetic/structual purposes*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* the Classes beggining with "benefit-" pertain to the articles on the right side of the web page. The 
+suffixes that follow indicate the article they belong to. These classes indicate their position on the web page. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
