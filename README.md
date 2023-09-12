@@ -7,7 +7,7 @@ This project was inspired by my first objective as a student of the Full Stack D
 None
     
 ## Installation
-No Special Installation is required for this application! Simply follow the link to view the site. 
+No Special Installation is required for this application! Simply follow the link to view the site. https://devjake99.github.io/Proj-Horiseon-Refac/#social-media-marketing
     
 ## Credits/Contributors
 UCI Full Stack Flex starter code
